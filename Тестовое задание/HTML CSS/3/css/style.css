@@ -1,0 +1,27 @@
+#form {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#but {
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#but:hover {
+  background: rgb(233, 153, 226);
+  border-color: rgb(97, 46, 93);
+}
+
+#but:active {
+  background: rgb(224, 104, 110);
+  border-color: rgb(179, 40, 47);
+}
+#but:disabled {
+  background: rgb(173, 205, 231);
+  border-color: rgb(15, 81, 134);
+}
